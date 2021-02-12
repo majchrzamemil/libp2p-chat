@@ -1,0 +1,13 @@
+[package]
+name = "libp2p-chat"
+version = "0.1.0"
+authors = ["Emil Majchrzak <majchrzakemil@gitlab.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libp2p = "0.34.0"
+env_logger = "0.8.2"
+futures = "0.3.12"
+async-std = "1.9.0"
